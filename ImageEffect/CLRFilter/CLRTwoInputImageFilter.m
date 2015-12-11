@@ -51,16 +51,16 @@ NSString *const kCLRGPUImageFilterFragmentShaderString = SHADER_STRING
      
      if(upDown < 0.5) {
          if(textureCoordinate.y > dataIn && textureCoordinate.y < dataIn + 0.01  ) {
-             outColor.r = (1.0 + color1.r ) / 2.0;
-             outColor.g = (0.0 + color1.g ) / 2.0;
-             outColor.b = (0.0 + color1.b ) / 2.0;
+             outColor.r = (0.0 + color1.r ) / 2.0;
+             outColor.g = (1.0 + color1.g ) / 2.0;
+             outColor.b = (1.0 + color1.b ) / 2.0;
              outColor.a = 0.8;
          }
      } else {
          if(textureCoordinate.y > dataIn + (0.5 - 0.01) && textureCoordinate.y < dataIn + 0.5 ){
-             outColor.r = (1.0 + color1.r ) / 2.0;
-             outColor.g = (0.0 + color1.g ) / 2.0;
-             outColor.b = (0.0 + color1.b ) / 2.0;
+             outColor.r = (0.0 + color1.r ) / 2.0;
+             outColor.g = (1.0 + color1.g ) / 2.0;
+             outColor.b = (1.0 + color1.b ) / 2.0;
              outColor.a = 0.8;
          }
      }
