@@ -22,6 +22,7 @@
 		54B0609B1C1AC22A009CD7F2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B0609A1C1AC22A009CD7F2 /* CoreVideo.framework */; };
 		54B0609D1C1AC231009CD7F2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B0609C1C1AC231009CD7F2 /* CoreMedia.framework */; };
 		54B0609F1C1AC23A009CD7F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B0609E1C1AC23A009CD7F2 /* AVFoundation.framework */; };
+		54B060A21C1ADA43009CD7F2 /* ImageEffect.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54B060A11C1ADA43009CD7F2 /* ImageEffect.gif */; };
 		54E685B61C19757B003503A1 /* CLRGPUImageFiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E685B51C19757B003503A1 /* CLRGPUImageFiler.m */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,7 @@
 		54B0609A1C1AC22A009CD7F2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		54B0609C1C1AC231009CD7F2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		54B0609E1C1AC23A009CD7F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54B060A11C1ADA43009CD7F2 /* ImageEffect.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ImageEffect.gif; path = ImageEffect/ScreenShot/ImageEffect.gif; sourceTree = "<group>"; };
 		54E685B41C19757B003503A1 /* CLRGPUImageFiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLRGPUImageFiler.h; path = CLRFilter/CLRGPUImageFiler.h; sourceTree = "<group>"; };
 		54E685B51C19757B003503A1 /* CLRGPUImageFiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLRGPUImageFiler.m; path = CLRFilter/CLRGPUImageFiler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 		5417EA821C195EFA0068F2B9 = {
 			isa = PBXGroup;
 			children = (
+				54B060A01C1AD9D8009CD7F2 /* ScreenShot */,
 				54B0609E1C1AC23A009CD7F2 /* AVFoundation.framework */,
 				54B0609C1C1AC231009CD7F2 /* CoreMedia.framework */,
 				54B0609A1C1AC22A009CD7F2 /* CoreVideo.framework */,
@@ -210,6 +213,14 @@
 				5417EACA1C1962F00068F2B9 /* GPUImage.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		54B060A01C1AD9D8009CD7F2 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				54B060A11C1ADA43009CD7F2 /* ImageEffect.gif */,
+			);
+			name = ScreenShot;
 			sourceTree = "<group>";
 		};
 		54E685B31C197526003503A1 /* CLRFilter */ = {
@@ -354,6 +365,7 @@
 				5417EA9E1C195EFA0068F2B9 /* LaunchScreen.storyboard in Resources */,
 				5417EA9B1C195EFA0068F2B9 /* Assets.xcassets in Resources */,
 				5417EA991C195EFA0068F2B9 /* Main.storyboard in Resources */,
+				54B060A21C1ADA43009CD7F2 /* ImageEffect.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
