@@ -18,6 +18,12 @@
 		5417EACB1C19631B0068F2B9 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5417EACA1C1962F00068F2B9 /* GPUImage.framework */; };
 		5417EACC1C19631B0068F2B9 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5417EACA1C1962F00068F2B9 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5443218D1C199F0F000869CD /* CLRTwoInputImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443218C1C199F0F000869CD /* CLRTwoInputImageFilter.m */; };
+		54996C4D1C23DFBE002B2D69 /* item_powerup_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 54996C4A1C23DFBE002B2D69 /* item_powerup_fish.png */; };
+		54996C4E1C23DFBE002B2D69 /* tile_floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 54996C4B1C23DFBE002B2D69 /* tile_floor.png */; };
+		54996C511C23DFCD002B2D69 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54996C501C23DFCD002B2D69 /* GLView.m */; };
+		54996C571C23DFEC002B2D69 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 54996C531C23DFEC002B2D69 /* SimpleVertex.glsl */; };
+		54996C581C23DFEC002B2D69 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 54996C541C23DFEC002B2D69 /* SimpleFragment.glsl */; };
+		54996C591C23DFEC002B2D69 /* SHaderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54996C561C23DFEC002B2D69 /* SHaderHelper.m */; };
 		54B060991C1AC222009CD7F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B060981C1AC222009CD7F2 /* QuartzCore.framework */; };
 		54B0609B1C1AC22A009CD7F2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B0609A1C1AC22A009CD7F2 /* CoreVideo.framework */; };
 		54B0609D1C1AC231009CD7F2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B0609C1C1AC231009CD7F2 /* CoreMedia.framework */; };
@@ -98,6 +104,14 @@
 		5417EAC11C1962F00068F2B9 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../../GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 		5443218B1C199F0F000869CD /* CLRTwoInputImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLRTwoInputImageFilter.h; path = CLRFilter/CLRTwoInputImageFilter.h; sourceTree = "<group>"; };
 		5443218C1C199F0F000869CD /* CLRTwoInputImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLRTwoInputImageFilter.m; path = CLRFilter/CLRTwoInputImageFilter.m; sourceTree = "<group>"; };
+		54996C4A1C23DFBE002B2D69 /* item_powerup_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_powerup_fish.png; sourceTree = "<group>"; };
+		54996C4B1C23DFBE002B2D69 /* tile_floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_floor.png; sourceTree = "<group>"; };
+		54996C4F1C23DFCD002B2D69 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		54996C501C23DFCD002B2D69 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		54996C531C23DFEC002B2D69 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		54996C541C23DFEC002B2D69 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		54996C551C23DFEC002B2D69 /* SHaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHaderHelper.h; sourceTree = "<group>"; };
+		54996C561C23DFEC002B2D69 /* SHaderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHaderHelper.m; sourceTree = "<group>"; };
 		54B060981C1AC222009CD7F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		54B0609A1C1AC22A009CD7F2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		54B0609C1C1AC231009CD7F2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -166,6 +180,7 @@
 		5417EA8D1C195EFA0068F2B9 /* ImageEffect */ = {
 			isa = PBXGroup;
 			children = (
+				54996C471C23DFA5002B2D69 /* OpenGL */,
 				54E685B31C197526003503A1 /* CLRFilter */,
 				5417EA911C195EFA0068F2B9 /* AppDelegate.h */,
 				5417EA921C195EFA0068F2B9 /* AppDelegate.m */,
@@ -183,6 +198,7 @@
 		5417EA8E1C195EFA0068F2B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				54996C4C1C23DFBE002B2D69 /* Art */,
 				5417EA8F1C195EFA0068F2B9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -213,6 +229,37 @@
 				5417EACA1C1962F00068F2B9 /* GPUImage.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		54996C471C23DFA5002B2D69 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				54996C521C23DFE2002B2D69 /* shader */,
+				54996C4F1C23DFCD002B2D69 /* GLView.h */,
+				54996C501C23DFCD002B2D69 /* GLView.m */,
+			);
+			name = OpenGL;
+			sourceTree = "<group>";
+		};
+		54996C4C1C23DFBE002B2D69 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				54996C4A1C23DFBE002B2D69 /* item_powerup_fish.png */,
+				54996C4B1C23DFBE002B2D69 /* tile_floor.png */,
+			);
+			name = Art;
+			path = ../../../Code4Everyone/CLROpenGLES20/CLROpenGLES20/Art;
+			sourceTree = "<group>";
+		};
+		54996C521C23DFE2002B2D69 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				54996C531C23DFEC002B2D69 /* SimpleVertex.glsl */,
+				54996C541C23DFEC002B2D69 /* SimpleFragment.glsl */,
+				54996C551C23DFEC002B2D69 /* SHaderHelper.h */,
+				54996C561C23DFEC002B2D69 /* SHaderHelper.m */,
+			);
+			name = shader;
 			sourceTree = "<group>";
 		};
 		54B060A01C1AD9D8009CD7F2 /* ScreenShot */ = {
@@ -362,10 +409,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54996C4D1C23DFBE002B2D69 /* item_powerup_fish.png in Resources */,
+				54996C581C23DFEC002B2D69 /* SimpleFragment.glsl in Resources */,
 				5417EA9E1C195EFA0068F2B9 /* LaunchScreen.storyboard in Resources */,
 				5417EA9B1C195EFA0068F2B9 /* Assets.xcassets in Resources */,
 				5417EA991C195EFA0068F2B9 /* Main.storyboard in Resources */,
+				54996C4E1C23DFBE002B2D69 /* tile_floor.png in Resources */,
 				54B060A21C1ADA43009CD7F2 /* ImageEffect.gif in Resources */,
+				54996C571C23DFEC002B2D69 /* SimpleVertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +446,8 @@
 				5417EA901C195EFA0068F2B9 /* main.m in Sources */,
 				54E685B61C19757B003503A1 /* CLRGPUImageFiler.m in Sources */,
 				5443218D1C199F0F000869CD /* CLRTwoInputImageFilter.m in Sources */,
+				54996C591C23DFEC002B2D69 /* SHaderHelper.m in Sources */,
+				54996C511C23DFCD002B2D69 /* GLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
